@@ -8,7 +8,7 @@ However, newcomers to the Kaia ecosystem may find it challenging to identify the
 
 This PoC, Kaia Chatbot, demonstrates an intelligent assistant that guides users by identifying their intents and directing them to the appropriate Kaia website.
 
-## How to start
+## How to run
 1. Train a model with predefined data
 ```
 > rasa train
