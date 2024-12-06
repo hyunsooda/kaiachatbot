@@ -1,0 +1,71 @@
+version: "3.1"
+
+intents:
+  - help
+  - directory_guide_portal
+  - directory_guide_square
+  - directory_guide_github
+  - directory_guide_kip
+  - directory_guide_kaia
+  - directory_guide_governance
+  - directory_guide_devforum
+  - directory_guide_explorer
+  - directory_guide_medium
+  - directory_guide_docs
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_help:
+  - text: "Hi, I'm Kaia Bot! Let me know what you'd like to do, and I'll provide a corresponding website to help you out."
+
+  utter_directory_guide_portal:
+  - text: "Kaia Portal is the closest match to your request. https://portal.kaia.io/"
+
+  utter_directory_guide_square:
+  - text: "Kaia Square is the closest match to your request. https://square.kaia.io/Home"
+
+  utter_directory_guide_github:
+  - text: "Kaia Github is the closest match to your request. https://github.com/kaiachain/kaia"
+
+  utter_directory_guide_kip:
+  - text: "Kaia KIP is the closest match to your request. https://kips.kaia.io/"
+
+  utter_directory_guide_kaia:
+  - text: "Kaia landing page is the closest match to your request. https://www.kaia.io/"
+
+  utter_directory_guide_governance:
+  - text: "Kaia Governance forum is the closest match to your request. https://govforum.kaia.io/"
+
+  utter_directory_guide_devforum:
+  - text: "Kaia Dev forum is the closest match to your request. https://devforum.kaia.io/"
+
+  utter_directory_guide_explorer:
+  - text: "Kaiascan is the closest match to your request. https://kaiascan.io/"
+
+  utter_directory_guide_medium:
+  - text: "Kaia Medium is the closest match to your request. https://medium.com/kaiachain"
+
+  utter_directory_guide_docs:
+  - text: "Kaia Docs is the closest match to your request. https://docs.kaia.io/"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

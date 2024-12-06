@@ -1,0 +1,1455 @@
+version: "3.1"
+
+nlu:
+- intent: help
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: directory_guide_portal
+  examples: |
+    - I want to swap FNSA to KAIA
+    - Can I swap FNSA to KAIA?
+    - I'm looking for a way to exchange FNSA for KAIA
+    - I'm interested in swapping FNSA with KAIA
+    - I'd like to trade FNSA for KAIA
+    - Can I trade FNSA for KAIA?
+    - I'd like to swap my FNSA for KAIA
+    - I want to exchange FNSA for KAIA
+    - Is it possible to trade FNSA to KAIA?
+    - How can I swap my FNSA to KAIA?
+    - I'm trying to figure out how to trade FNSA for KAIA
+    - I'm trying to find a way to swap FNSA with KAIA
+    - I'm trying to trade FNSA to KAIA
+    - What's the best way to swap FNSA with KAIA?
+    - I'm trying to exchange FNSA for KAIA
+    - Is it possible to swap FNSA to KAIA?
+    - I'm interested in trading FNSA to KAIA
+    - How can I exchange FNSA for KAIA?
+    - Can I exchange Finschia coin to Kaia coin?
+    - I'd like to swap Finschia to Kaia
+    - I'm looking for a way to swap Finschia coin for Kaia
+    - I'm interested in trading Finschia for Kaia
+    - Can I trade Finschia coin for Kaia?
+    - I'm trying to figure out how to swap Finschia to Kaia
+    - I want to exchange Finschia coin for Kaia
+    - How do I swap my Finschia for Kaia?
+    - Is it possible to trade Finschia to Kaia?
+    - I'm trying to find a way to exchange Finschia coin with Kaia
+    - I'd like to trade Finschia for Kaia
+    - Is it possible to exchange Finschia coin for Kaia?
+    - I'm trying to swap Finschia to Kaia
+    - Can I swap Finschia for Kaia?
+    - I want to trade Finschia coin for Kaia
+    - I'm looking for a way to trade Finschia for Kaia
+    - How do I trade Finschia asset for Kaia asset?
+    - Is it possible to trade Finschia for Kaia?
+    - I'm trying to figure out how to trade Finschia to Kaia
+    - I want to swap my Finschia asset for Kaia asset
+    - Can I swap Finschia to Kaia?
+    - I'm interested in exchanging Finschia for Kaia
+    - How can I exchange my Finschia asset to Kaia?
+    - Can I trade my Finschia asset for Kaia?
+    - I'm looking for a way to swap Finschia with Kaia
+    - I'd like to exchange Finschia for Kaia
+    - I want to trade Finschia asset to Kaia asset
+    - Is it possible to swap Finschia for Kaia?
+    - I want to stake my kaia coin and earn reward
+    - I'd like to stake my Kaia coin and receive a reward
+    - I'm looking to stake my Kaia coin and earn a reward
+    - Can I stake my Kaia coin to earn a reward?
+    - I'm interested in staking my Kaia coin and getting a reward
+    - Is it possible to stake my Kaia coin and earn a reward?
+    - I'm trying to figure out how to stake my Kaia coin and earn a reward
+    - I want to earn a reward by staking my Kaia coin
+    - I'm trying to find a way to stake my Kaia coin and get a reward
+    - I'm trying to stake my Kaia coin to receive a reward
+    - I'd like to stake my Kaia coin and receive a reward
+    - How can I stake my Kaia coin and earn a reward?
+    - I'm looking for a way to stake my Kaia coin and get a reward
+    - Is it possible to stake my Kaia coin and receive a reward?
+    - What's the best way to stake my Kaia coin and earn a reward?
+    - I'm interested in staking my Kaia coin and earning a reward
+    - Can I stake my kaia coin and earn reward?
+    - Is it possible to stake my Kaia coin for a reward?
+    - I'm trying to figure out how to stake my Kaia coin and receive a reward
+    - I'm looking to stake my Kaia coin and get a reward
+    - I'm trying to stake my Kaia coin to earn a reward
+    - Can I earn a reward by staking my Kaia coin?
+    - I'd like to stake my Kaia coin to get a reward
+    - I'm looking for a way to stake my Kaia coin and earn a reward
+    - Is it possible to earn a reward by staking my Kaia coin?
+    - How can I earn a reward by staking my Kaia coin?
+    - I'm interested in staking my Kaia coin to get a reward
+    - What's the best way to stake my Kaia coin and earn a reward?
+    - I want to stake my Kaia coin and get a reward
+    - I'm trying to find a way to stake my Kaia coin and earn a reward
+    - I'd like to earn a reward by staking my Kaia coin
+    - I'm trying to stake my Kaia coin to receive a reward
+    - Is it possible to stake my Kaia coin and earn a reward?
+    - I'm trying to figure out if I can stake my Kaia coin and earn a reward
+    - I want to know if it's possible to stake my Kaia coin and get a reward
+    - Can I earn a reward by staking my Kaia coin?
+    - I'm looking for a way to stake my Kaia coin and receive a reward
+    - I'm interested in staking my Kaia coin and getting a reward
+    - How can I stake my Kaia coin and earn a reward?
+    - I'm trying to find a way to stake my Kaia coin and earn a reward
+    - Can I get a reward by staking my Kaia coin?
+    - I'd like to know if I can stake my Kaia coin and earn a reward
+    - Is it possible to earn a reward by staking my Kaia coin?
+    - What's the best way to stake my Kaia coin and earn a reward?
+    - I'm looking to stake my Kaia coin and get a reward
+    - I'm trying to stake my Kaia coin and earn a reward
+    - I want to know if it's possible to stake my Kaia coin and receive a reward
+    - Can I stake my Kaia coin to receive a reward?
+    - How can I stake my Kaia coin and earn a reward?
+    - I'm trying to figure out how to stake my Kaia coin to earn a reward
+    - What's the best way to stake my Kaia coin and get a reward?
+    - I'm looking for a way to stake my Kaia coin and earn a reward
+    - Can I stake my Kaia coin and get a reward?
+    - Is it possible to stake my Kaia coin to receive a reward?
+    - I'm trying to find a way to stake my Kaia coin and receive a reward
+    - I'm interested in staking my Kaia coin and earning a reward
+    - How can I get a reward by staking my Kaia coin?
+    - I'm trying to stake my Kaia coin to get a reward
+    - Is it possible to get a reward by staking my Kaia coin?
+    - Can I stake my Kaia coin to get a reward?
+    - I'm looking to stake my Kaia coin and earn a reward
+    - I'd like to stake my Kaia coin to earn a reward
+    - I want to know how to stake my Kaia coin to get a reward
+    - Can I earn a reward by staking my Kaia coin?
+    - I'm trying to stake my Kaia coin to earn a reward  
+    - Is it possible to stake my Kaia coin to earn a reward?
+    - I want to stake my Kaia coin to earn a reward
+    - I'd like to stake my Kaia coin in order to earn a reward
+    - I'm looking to stake my Kaia coin so that I can earn a reward
+    - I'm trying to stake my Kaia coin for the purpose of earning a reward
+    - I'm trying to stake my Kaia coin with the intention of earning a reward
+    - Can I stake my Kaia coin with the intention of earning a reward?
+    - I'm interested in staking my Kaia coin for the purpose of getting a reward
+    - Is it possible to stake my Kaia coin for the purpose of earning a reward?
+    - I'm trying to figure out how to stake my Kaia coin for the purpose of earning a reward
+    - I want to stake my Kaia coin with the goal of earning a reward
+    - How can I stake
+
+- intent: directory_guide_portal
+  examples: |
+
+- intent: directory_guide_square
+  examples: |
+    - To stake my KAIA, what do I need to do first?
+    - I wish to see the GC information, how can I do it?
+    - I need to find all the GC information, what's the best way to do this?
+    - In order to see the GC information, what should I do?
+    - I am looking to view all the GC information, what's the process?
+    - Can you show me how to access the GC information?
+    - In order to access the GC information, what are my options?
+    - I'd like to get all the GC information, what should I do?
+    - How can I retrieve the GC information?
+    - I want to get hold of all the GC information, how can I do it?
+    - To see the GC information, which steps should I follow?
+    - How do I access the GC information?
+    - I'm trying to find a way to view the GC information, can you guide me?
+    - In order to get the GC information, what are the procedures I need to follow?
+    - I wish to view the GC information, but I'm not sure how, can you help me?
+    - In order to retrieve the GC information, what options do I have?
+    - I need to view all the GC information, can you show me the way?
+    - I'd like to obtain the GC information, what are the steps to do it?
+    - Can you tell me how to access the GC information?
+    - I need to get all the GC information, what's the correct procedure?
+    - I want to see the GC information, but I don't know how to start, can you assist me?
+    - How can I get my hands on the GC information?
+    - I'm searching for a way to get the GC information, can you provide me with the necessary steps?
+    - To access the GC information, what steps should I take?
+    - I wish to view the GC information, what are the required actions?
+    - Can you show me the way to access the GC information?
+    - I'm looking to view the GC information, but I need guidance, can you help me?
+    - In order to get the GC information, what should I do first?
+    - How do I view the GC information?
+    - In order to access the GC information, what's the best approach?
+    - I'm trying to access the GC information, but I'm not sure where to start, can you guide me?
+    - Can you assist me in viewing the GC information?
+    - I need to get the GC information, what are the necessary steps to take?
+    - How can I view the GC information?
+    - I wish to see the GC information, but I don't know how to begin, can you assist me?
+    - In order to view the GC information, what's the correct method?
+    - I want to access the GC information, but I'm not sure how to proceed, can you help me?
+    - I need to view the GC information, what are the required steps?
+    - Can you show me the way to view the GC information?
+    - I'm searching for a way to access the GC information, can you provide me with the necessary information?
+    - In order to see the GC information, what are the procedures I need to follow?
+    - I'd like to get the GC information, but I'm not sure how to start, can you guide me?
+    - I want to view the GC information, but I need assistance, can you help me?
+    - Can you tell me the steps to access the GC information?
+    - I'm looking to access the GC information, but I don't know where to start, can you assist me?
+    - I need to access the GC information, what are the necessary steps to take?
+    - How can I get the GC information?
+    - I'm trying to find a way to view the GC information, can you show me the way?
+    - In order to get the GC information, what's the correct approach?
+    - Can you provide me with the necessary steps to access the GC information?
+    - I'm searching for a way to get the GC information, can you guide me?
+    - I wish to access the GC information, but I don't know how to proceed, can you assist me?
+    - How can I access the GC information?
+    - I need to access the GC information, but I'm not sure where to start, can you help me?
+    - In order to view the GC information, what are the required steps to follow?
+    - Can you show me the way to get the GC information?
+    - I'm trying to access the GC information, but I'm not sure how, can you guide me?
+    - I'd like to get the GC information, but I need assistance, can you help me?
+    - In order to view the GC information, what are the procedures to follow?
+    - I want to access the GC information, but I'm not sure how to start, can you provide me with the necessary steps?
+    - I need to get the GC information, what are the required actions?
+    - Can you assist me in accessing the GC information?
+    - I'm searching for a way to view the GC information, can you provide me with the necessary information?
+    - In order to access the GC information, what's the best approach to take?
+    - I wish to view the GC information, but I don't know how to proceed, can you guide me?
+    - I need to view the GC information, what are the necessary steps to take?
+    - Can you tell me the steps to view the GC information?
+    - I'm looking to access the GC information, but I don't know where to start, can you show me the way?
+    - I want to access the GC information, but I need assistance, can you assist me?
+    - I'm trying to view the GC information, but I'm not sure how, can you provide me with the necessary information?
+    - In order to get the GC information, what are the required steps to follow?
+    - Can you provide me with the steps to access the GC information?
+    - I need to access the GC information, but I'm not sure how to start, can you guide me?
+    - I'm searching for a way to get the GC information, can you tell me the necessary steps?
+    - I'd like to view the GC information, but I'm not sure how to proceed, can you assist me?
+    - In order to view the GC information, what are the necessary steps to take?
+    - Can you show me the way to view the GC information?
+    - I need to get the GC information, what are the required actions to take?
+    - I'm looking to access the GC information, but I don't know where to start, can you provide me with the necessary information?
+    - I want to view the GC information, but I need assistance, can you guide me?
+    - I'm trying to access the GC information, but I'm not sure how to proceed, can you assist me?
+    - I need to view the GC information, but I'm not sure how to start, can you show me the way?
+    - Can you tell me the necessary steps to access the GC information?
+    - I'm searching for a way to get the GC information, can you provide me with the necessary steps to follow?
+    - In order to access the GC information, what are the required steps to take?
+    - I'd like to get the GC information, but I'm not sure how to proceed, can you assist me?
+    - I need to access the GC information, but I'm not sure how, can you guide me?
+    - Can you show me the necessary steps to view the GC information?
+    - I'm looking to get the GC information, but I don't know where to start, can you assist me?
+    - I want to access the GC information, but I need assistance, can you provide me with the necessary information?
+    - I'm trying to view the GC information, but I'm not sure how to start, can you tell me the steps?
+    - In order to get the GC information, what are the necessary steps to take?
+    - Can you guide me in accessing the GC information?
+    - I need to view the GC information, but I'm not sure how to proceed, can you show me the way?
+    - I'm searching for a way to access the GC information, can you assist me?
+    - I'd like to get the GC information, but I'm not sure how to start, can you guide me through the process?
+    - In order to access the GC information, what are the required steps
+
+- intent: directory_guide_github
+  examples: |
+    - Where can I find Kaia source code to look at?
+    - Where can I view Kaia source code?
+    - I would like to see the Kaia source code, where can I find it?
+    - Where can I locate the Kaia source code?
+    - Where can I see Kaia source code at?
+    - Where can I access Kaia source code from?
+    - Where can I obtain Kaia source code to examine?
+    - Where can I get Kaia source code to study?
+    - Where can I find the Kaia source code to examine?
+    - Where can I view the Kaia source code?
+    - I need to see the Kaia source code, where can I view it?
+    - Where can I gain access to the Kaia source code?
+    - Where can I locate the Kaia source code to study?
+    - Where can I access the Kaia source code?
+    - Where can I view the Kaia source code?
+    - Where can I see the Kaia source code to understand?
+    - Where can I examine the Kaia source code?
+    - Where can I study the Kaia source code?
+    - Where can I find Kaia source code?
+    - Where can I get Kaia source code to understand?
+    - Where can I look at Kaia source code?
+    - I would like to view the Kaia source code, where can I do this?
+    - Where can I find Kaia source code to study?
+    - Where can I look at the Kaia source code?
+    - Where can I find Kaia SDK code to examine?
+    - Where can I view Kaia SDK code?
+    - I would like to see the Kaia SDK code, where can I find it?
+    - Where can I locate the Kaia SDK code?
+    - Where can I see Kaia SDK code at?
+    - Where can I access Kaia SDK code from?
+    - Where can I obtain Kaia SDK code to study?
+    - Where can I get Kaia SDK code to examine?
+    - Where can I find the Kaia SDK code to examine?
+    - Where can I view the Kaia SDK code?
+    - I need to see the Kaia SDK code, where can I view it?
+    - Where can I gain access to the Kaia SDK code?
+    - Where can I locate the Kaia SDK code to examine?
+    - Where can I access the Kaia SDK code?
+    - Where can I view the Kaia SDK code?
+    - Where can I see the Kaia SDK code to understand?
+    - Where can I examine the Kaia SDK code?
+    - Where can I study the Kaia SDK code?
+    - Where can I find Kaia SDK code?
+    - Where can I get Kaia SDK code to understand?
+    - Where can I look at Kaia SDK code?
+    - I would like to view the Kaia SDK code, where can I do this?
+    - Where can I find Kaia SDK code to study?
+    - Where can I look at the Kaia SDK code?
+    - Where can I see the Kaia repository?
+    - I would like to view the Kaia repository, where can I do this?
+    - Where can I find the Kaia repository to access?
+    - Where can I locate the Kaia repository?
+    - Where can I view the Kaia repository?
+    - Where can I access the Kaia repository?
+    - Where can I see the Kaia repository to understand?
+    - Where can I examine the Kaia repository?
+    - Where can I study the Kaia repository?
+    - Where can I find Kaia repository?
+    - Where can I get Kaia repository to understand?
+    - I need to see the Kaia repository, where can I view it?
+    - Where can I gain access to the Kaia repository?
+    - Where can I locate the Kaia repository to study?
+    - Where can I access the Kaia repository?
+    - Where can I view the Kaia repository?
+    - Where can I see the Kaia repository at?
+    - Where can I look at the Kaia repository?
+    - Where can I find Kaia repository to study?
+    - Where can I look at Kaia repository?
+    - Where can I see the Kaia technical detail?
+    - Where can I access Kaia technical detail?
+    - Where can I view the Kaia technical detail?
+    - Where can I locate the Kaia technical detail?
+    - Where can I gain access to the Kaia technical detail?
+    - Where can I see Kaia technical detail to understand?
+    - I need to see Kaia technical detail, where can I view it?
+    - Where can I look at Kaia technical detail?
+    - Where can I find Kaia technical detail?
+    - Where can I study Kaia technical detail?
+    - Where can I examine Kaia technical detail?
+    - I would like to see Kaia technical detail, where can I find it?
+    - Where can I view Kaia technical detail?
+    - Where can I access the Kaia technical detail?
+    - Where can I see the Kaia technical detail at?
+    - Where can I look at the Kaia technical detail?
+    - Where can I locate the Kaia technical detail to study?
+    - Where can I find Kaia technical detail to understand?
+    - Where can I study Kaia technical detail to understand?
+    - Where can I examine the Kaia technical detail at?
+    - Where can I view the Kaia technical detail at?
+    - Where can I look at the Kaia technical detail to understand?
+    - Where can I find Kaia source code to look at?
+    - Where can I view Kaia source code?
+    - I would like to see the Kaia source code, where can I find it?
+    - Where can I locate the Kaia source code?
+    - Where can I see Kaia source code at?
+    - Where can I access Kaia source code from?
+    - Where can I obtain Kaia source code to examine?
+    - Where can I get Kaia source code to study?
+    - Where can I find the Kaia source code to examine?
+    - Where can I view the Kaia source code?
+    - I need to see the Kaia source code, where can I view it?
+    - Where can I gain access to the Kaia source code?
+    - Where can I locate the Kaia source code to study?
+    - Where can I access the Kaia source code?
+    - Where can I view the Kaia source code?
+    - Where can I see the Kaia source code to understand?
+    - Where can I examine the Kaia source code?
+    - Where can I study the Kaia source code?
+    - Where can I find Kaia source code?
+    - Where can I get Kaia source code to understand?
+    - Where can I look at Kaia source code?
+    - I would like to view the Kaia source code, where can I do this?
+    - Where can I find Kaia source code to study?
+    - Where can I look at the Kaia source code?
+    - Where can I find Kaia SDK code to examine?
+    - Where can I view Kaia SDK code?
+    - I would like to see the Kaia SDK code, where can I find it?
+    - Where can I locate the Kaia SDK code?
+    - Where can I see Kaia SDK code at?
+    - Where can I access Kaia SDK code from?
+    - Where can I obtain Kaia SDK code to study?
+    - Where can I get Kaia SDK code to examine?
+    - Where can I find the Kaia SDK code to examine?
+    - Where can I view the Kaia SDK code?
+    - I need to see the Kaia SDK code, where can I view it?
+    - Where can I gain access to the Kaia SDK code?
+    - Where can I locate the Kaia SDK code to examine?
+    - Where can I access the Kaia SDK code?
+    - Where can I view the Kaia SDK code?
+    - Where can I see the Kaia SDK code to understand?
+    - Where can I examine the Kaia SDK code?
+    - Where can I study the Kaia SDK code?
+    - Where can I find Kaia SDK code?
+    - Where can I get Kaia SDK code to understand?
+    - Where can I look at Kaia SDK code?
+    - I would like to view the Kaia SDK code, where can I do this?
+    - Where can I find Kaia SDK code to study?
+    - Where can I look at the Kaia SDK code?
+    - Where can I see the Kaia repository?
+    - I would like to view the Kaia repository, where can I do this?
+    - Where can I find the Kaia repository to access?
+    - Where can I locate the Kaia repository?
+    - Where can I view the Kaia repository?
+    - Where can I access the Kaia repository?
+    - Where can I see the Kaia repository to understand?
+    - Where can I examine the Kaia repository?
+    - Where can I study the Kaia repository?
+    - Where can I find Kaia repository?
+    - Where can I get Kaia repository to understand?
+    - I need to see the Kaia repository, where can I view it?
+    - Where can I gain access to the Kaia repository?
+
+- intent: directory_guide_kip
+  examples: |
+    - Where can I look for Kaia improvement proposal?
+    - Where can I find information on new technical ideas and suggestions?
+    - Where can I locate the protocol change draft?
+    - Where can I access the Kaia improvement proposal document?
+    - Can I see the new technical idea and suggestion?
+    - Where can I view the Kaia improvement proposal?
+    - What location contains the Kaia improvement proposal?
+    - Where can I view new technical ideas and suggestions?
+    - Can I see the Kaia improvement proposal document?
+    - Where can I find Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal document?
+    - Where can I look for Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal document?
+    - Can I see the Kaia improvement proposal document?
+    - Where can I locate Kaia improvement proposal?
+    - What location contains Kaia improvement proposal?
+    - Where can I access the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal document?
+    - Where can I look for new technical ideas and suggestions?
+    - Can I see new technical idea and suggestions?
+    - Where can I access new technical ideas and suggestions?
+    - Where can I find information on new technical ideas and suggestions?
+    - Where can I locate new technical ideas and suggestions?
+    - Where can I see the new technical ideas and suggestions?
+    - What location contains the new technical ideas and suggestions?
+    - Where can I view new technical ideas and suggestions?
+    - Where can I look for the new technical ideas and suggestions?
+    - Where can I see protocol change draft?
+    - Where can I look for protocol change draft?
+    - Where can I locate protocol change draft?
+    - Can I see the protocol change draft?
+    - What location contains the protocol change draft?
+    - Where can I find the protocol change draft?
+    - Where can I access the protocol change draft?
+    - Where can I view the protocol change draft?
+    - Where can I find protocol change draft?
+    - Where can I look for Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal document?
+    - Can I see the Kaia improvement proposal document?
+    - Where can I locate Kaia improvement proposal?
+    - What location contains Kaia improvement proposal?
+    - Where can I access the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal?
+    - Where can I view the Kaia improvement proposal document?
+    - Where can I access Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal location?
+    - Where can I find the Kaia improvement proposal document?
+    - Where can I look for new technical ideas and suggestions?
+    - Can I see new technical idea and suggestions?
+    - Where can I access new technical ideas and suggestions?
+    - Where can I find information on new technical ideas and suggestions?
+    - Where can I locate new technical ideas and suggestions?
+    - Where can I see the new technical ideas and suggestions?
+    - What location contains the new technical ideas and suggestions?
+    - Where can I view new technical ideas and suggestions?
+    - Where can I look for the new technical ideas and suggestions?
+    - Where can I access the new technical ideas and suggestions document?
+    - Where can I find the new technical ideas and suggestions?
+    - Where can I view the new technical ideas and suggestions document?
+    - Where can I locate the new technical ideas and suggestions?
+    - Where can I see protocol change draft?
+    - Where can I look for protocol change draft?
+    - Where can I locate protocol change draft?
+    - Can I see the protocol change draft?
+    - What location contains the protocol change draft?
+    - Where can I find the protocol change draft?
+    - Where can I access the protocol change draft?
+    - Where can I view the protocol change draft?
+    - Where can I find protocol change draft?
+    - Where can I locate the protocol change draft document?
+    - Where can I look for the protocol change draft document?
+    - Where can I access the protocol change draft document?
+    - Where can I look for Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal document?
+    - Can I see the Kaia improvement proposal document?
+    - Where can I locate Kaia improvement proposal?
+    - What location contains Kaia improvement proposal?
+    - Where can I access the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal?
+    - Where can I view the Kaia improvement proposal document?
+    - Where can I access Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal location?
+    - Where can I find the Kaia improvement proposal document?
+    - Where can I view the Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal document?
+    - Where can I find the Kaia improvement proposal?
+    - Where can I see Kaia improvement proposal document?
+    - Where can I look for new technical ideas and suggestions?
+    - Can I see new technical idea and suggestions?
+    - Where can I access new technical ideas and suggestions?
+    - Where can I find information on new technical ideas and suggestions?
+    - Where can I locate new technical ideas and suggestions?
+    - Where can I see the new technical ideas and suggestions?
+    - What location contains the new technical ideas and suggestions?
+    - Where can I view new technical ideas and suggestions?
+    - Where can I look for the new technical ideas and suggestions?
+    - Where can I access the new technical ideas and suggestions document?
+    - Where can I find the new technical ideas and suggestions?
+    - Where can I view the new technical ideas and suggestions document?
+    - Where can I locate the new technical ideas and suggestions?
+    - Where can I see new technical ideas and suggestions document?
+    - Where can I locate new technical ideas and suggestions document?
+    - Where can I view the new technical ideas?
+    - Where can I find new technical ideas and suggestions document?
+    - Where can I see new technical ideas?
+    - Where can I see protocol change draft?
+    - Where can I look for protocol change draft?
+    - Where can I locate protocol change draft?
+    - Can I see the protocol change draft?
+    - What location contains the protocol change draft?
+    - Where can I find the protocol change draft?
+    - Where can I access the protocol change draft?
+    - Where can I view the protocol change draft?
+    - Where can I find protocol change draft?
+    - Where can I locate the protocol change draft document?
+    - Where can I look for the protocol change draft document?
+    - Where can I access the protocol change draft document?
+    - Where can I view the protocol change draft document?
+    - Where can I locate the protocol change draft document location?
+    - Where can I find the protocol change draft document location?
+    - Where can I access the protocol change draft document location?
+    - Where can I look for Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal document?
+    - Can I see the Kaia improvement proposal document?
+    - Where can I locate Kaia improvement proposal?
+    - What location contains Kaia improvement proposal?
+    - Where can I access the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal?
+    - Where can I find Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal?
+    - Where can I view the Kaia improvement proposal document?
+    - Where can I access Kaia improvement proposal?
+    - Where can I look for Kaia improvement proposal location?
+    - Where can I find the Kaia improvement proposal document?
+    - Where can I view the Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal document?
+    - Where can I get the Kaia improvement proposal?
+    - Where can I view Kaia improvement proposal document?
+    - Where can I find the Kaia improvement proposal?
+    - Where can I see Kaia improvement proposal document?
+    - Where can I locate the Kaia improvement proposal document location?
+    - Where can I find the Kaia improvement proposal document location?
+    - Where can I view Kaia improvement proposal document location?
+
+- intent: directory_guide_kaia
+  examples: |
+    - The Kaia ecosystem can be seen on our website
+    - The main website of Kaia can be viewed on our platform
+    - The main concept of Kaia can be accessed through our website
+    - The Kaia ecosystem is available on our site
+    - The Kaia main website is accessible on our platform
+    - The Kaia main website can be viewed from our site
+    - The Kaia main website is accessible through our website
+    - The Kaia main website can be seen on our site
+    - The Kaia main website is accessible from our platform
+    - The Kaia main website is available on our website
+    - The main concept of Kaia can be found on our website
+    - The main concept of Kaia can be accessed through our site
+    - The main concept of Kaia can be viewed on our website
+    - The entire Kaia ecosystem is available on our website
+    - The entire Kaia ecosystem is accessible through our site
+    - The main concept of Kaia can be seen on our platform
+    - The main concept of Kaia is accessible on our website
+    - The main concept of Kaia is available on our site
+    - The main concept of Kaia can be accessed on our platform
+    - The main concept of Kaia can be viewed on our site
+    - The main concept of Kaia is accessible through our website
+    - The main concept of Kaia can be accessed on our website
+    - The entire Kaia ecosystem can be viewed on our site
+    - The entire Kaia ecosystem can be found on our platform
+    - The entire Kaia ecosystem can be viewed on our site
+    - The entire Kaia ecosystem is available on our platform
+    - The entire Kaia ecosystem is accessible from our website
+    - The entire Kaia ecosystem can be seen on our website
+    - The entire Kaia ecosystem can be accessed through our site
+    - The entire Kaia ecosystem can be found on our platform
+    - The entire Kaia ecosystem can be viewed from our platform
+    - The entire Kaia ecosystem is accessible through our site
+    - The entire Kaia ecosystem can be accessed on our platform
+    - The entire Kaia ecosystem is available on our website
+    - The entire Kaia ecosystem is accessible on our website
+    - The Kaia main website is accessible on our platform
+    - The Kaia main website can be viewed from our site
+    - The Kaia main website is available on our website
+    - The Kaia main website can be seen on our platform
+    - The Kaia main website can be accessed through our site
+    - The Kaia main website is accessible from our website
+    - The Kaia main website can be viewed on our site
+    - The Kaia main website can be accessed on our website
+    - The Kaia main website is accessible on our site
+    - The Kaia main website is available on our platform
+    - The Kaia main website can be accessed from our website
+    - The main concept of Kaia can be found on our website
+    - The main concept of Kaia is accessible on our website
+    - The main concept of Kaia can be viewed on our site
+    - The main concept of Kaia can be accessed on our platform
+    - The main concept of Kaia is available on our site
+    - The main concept of Kaia can be accessed through our site
+    - The main concept of Kaia is accessible through our platform
+    - The main concept of Kaia is accessible from our website
+    - The main concept of Kaia can be viewed on our platform
+    - The main concept of Kaia can be accessed from our website
+    - The main concept of Kaia is available on our platform
+    - The Kaia ecosystem is our platform
+    - The Kaia ecosystem refers to our website
+    - The Kaia ecosystem is accessible through our site
+    - The Kaia ecosystem can be viewed on our platform
+    - The Kaia ecosystem is available on our website
+    - The Kaia ecosystem is the main website of our company
+    - The Kaia ecosystem is our main platform
+    - The Kaia ecosystem is accessible on our site
+    - The Kaia ecosystem is the platform where users can interact
+    - The Kaia ecosystem can be accessed through our website
+    - The Kaia main website is our website
+    - The Kaia main website refers to our platform
+    - The Kaia main website is accessible through our site
+    - The Kaia main website can be viewed on our platform
+    - The Kaia main website is available on our website
+    - The Kaia main website is the main website of our company
+    - The Kaia main website is our main platform
+    - The Kaia main website is accessible on our site
+    - The Kaia main website is the platform where users can interact
+    - The Kaia main website can be accessed through our website
+    - The main concept of Kaia is our platform
+    - The main concept of Kaia refers to our website
+    - The main concept of Kaia is accessible through our site
+    - The main concept of Kaia can be viewed on our platform
+    - The main concept of Kaia is available on our website
+    - The main concept of Kaia is the main idea behind our company
+    - The main concept of Kaia is our main platform
+    - The main concept of Kaia is accessible on our site
+    - The main concept of Kaia is the platform where users can interact
+    - The main concept of Kaia can be accessed through our website
+    - The Kaia ecosystem is accessible through our site
+    - The Kaia ecosystem can be accessed on our platform
+    - The Kaia ecosystem can be viewed from our website
+    - The Kaia ecosystem is available from our site
+    - The Kaia ecosystem is the main platform of our company
+    - The Kaia ecosystem can be accessed on our website
+    - The Kaia ecosystem is accessible through our platform
+    - The Kaia ecosystem can be viewed on our site
+    - The Kaia ecosystem is our main platform
+    - The Kaia ecosystem can be accessed from our site
+    - The Kaia main website can be accessed through our site
+    - The Kaia main website can be viewed from our platform
+    - The Kaia main website is available from our website
+    - The Kaia main website is the main website of our company
+    - The Kaia main website can be accessed on our platform
+    - The Kaia main website is our main platform
+    - The Kaia main website can be viewed on our site
+    - The Kaia main website is accessible from our platform
+    - The Kaia main website can be accessed on our website
+    - The Kaia main website can be accessed from our website
+    - The main concept of Kaia can be viewed on our platform
+    - The main concept of Kaia is available from our site
+    - The main concept of Kaia is the main idea behind our company
+    - The main concept of Kaia can be accessed on our website
+    - The main concept of Kaia is our main platform
+    - The main concept of Kaia can be viewed from our website
+    - The main concept of Kaia is accessible from our site
+    - The main concept of Kaia can be accessed through our platform
+    - The main concept of Kaia is the platform where users can interact
+    - The main concept of Kaia can be accessed on our platform
+    - The entire Kaia ecosystem can be accessed through our website
+    - The entire Kaia ecosystem is viewable on our platform
+    - The entire Kaia ecosystem is accessible from our site
+    - The entire Kaia ecosystem can be seen on our website
+    - The entire Kaia ecosystem is available on our platform
+    - The entire Kaia ecosystem can be viewed from our website
+    - The entire Kaia ecosystem is accessible through our site
+    - The entire Kaia ecosystem can be accessed on our website
+    - The entire Kaia ecosystem is accessible on our platform
+    - The entire Kaia ecosystem can be viewed on our site
+    - The entire Kaia ecosystem is available from our website
+    - The Kaia main website is viewable on our platform
+    - The Kaia main website is accessible from our site
+    - The Kaia main website can be seen on our website
+    - The Kaia main website is available on our platform
+    - The Kaia main website can be viewed from our website
+    - The Kaia main website is accessible through our site
+
+- intent: directory_guide_governance
+  examples: |
+    - Where is the Kaia governance discussion forum located?
+    - Kaia governance discussion is accessible at which location?
+    - Can I access Kaia governance discussion in a certain area?
+    - What location has Kaia governance discussion?
+    - Where is Kaia governance discussion situated?
+    - Can I find the location of Kaia governance discussion?
+    - Where can I find Kaia governance discussion forum?
+    - Can I access Kaia governance discussion from a specific location?
+    - What area has Kaia governance discussion?
+    - Where is Kaia governance discussion located?
+    - Where can I access Kaia governance discussion?
+    - Kaia governance discussion forum can be seen in a certain area
+    - Where can I locate Kaia governance discussion?
+    - I can access Kaia governance discussion forum in a particular area
+    - In which location can I see Kaia governance discussion?
+    - Kaia governance discussion is situated in a certain location
+    - Where is Kaia governance discussion located?
+    - Can I see Kaia governance discussion in a specific area?
+    - In which area can I access Kaia governance discussion?
+    - Kaia governance discussion can be found in a certain area
+    - Where can I access Kaia governance discussion forum?
+    - Kaia governance forum can be found in a specific location
+    - Where is the Kaia governance forum located?
+    - I can access Kaia governance forum in a particular area
+    - Where can I locate Kaia governance forum?
+    - Kaia governance forum is accessible at a certain location
+    - Can I find the location of Kaia governance forum?
+    - In which area can I see Kaia governance forum?
+    - Kaia governance forum is situated in a certain area
+    - Can I access Kaia governance forum in a specific location?
+    - Where can I find Kaia governance forum?
+    - Kaia governance agenda is located in a specific location
+    - Where can I locate Kaia governance agenda?
+    - I can access Kaia governance agenda in a particular area
+    - Can I see Kaia governance agenda in a certain area?
+    - In which location can I find Kaia governance agenda?
+    - Kaia governance agenda can be found in a certain area
+    - Where can I find Kaia governance agenda?
+    - Can I access Kaia governance agenda in a certain location?
+    - In which area can I locate Kaia governance agenda?
+    - Kaia governance agenda is situated in a particular location
+    - Kaia governance discussion can be accessed from a particular location
+    - The location of Kaia governance discussion can be found
+    - Where can I find the Kaia governance discussion location?
+    - Kaia governance discussion is accessible from a certain area
+    - Can I find the Kaia governance discussion forum?
+    - In which area is Kaia governance discussion located?
+    - Kaia governance discussion is located in a specific area
+    - The Kaia governance discussion can be accessed
+    - I can access Kaia governance discussion from a certain location
+    - Kaia governance discussion can be found in a particular area
+    - The location of the Kaia governance discussion can be found
+    - Kaia governance discussion is situated in a certain location
+    - Where is the Kaia governance discussion located?
+    - Kaia governance discussion can be accessed in a certain area
+    - Kaia governance discussion is located in a particular area
+    - Kaia governance discussion can be found in a specific location
+    - The Kaia governance discussion location can be found
+    - Can I find Kaia governance discussion in a certain area?
+    - Kaia governance discussion can be accessed from a specific location
+    - Where can I locate the Kaia governance discussion?
+    - Kaia governance discussion is situated at a certain location
+    - Can I find Kaia governance discussion in a particular area?
+    - The Kaia governance discussion can be found in a certain location
+    - Kaia governance discussion can be found in a certain area
+    - Kaia governance discussion is located at a certain location
+    - Kaia governance discussion can be found in a particular location
+    - Where is Kaia governance discussion situated?
+    - Kaia governance discussion is located in a certain area
+    - Where can I find Kaia governance discussion in a certain area?
+    - Kaia governance discussion is located in a certain location
+    - The Kaia governance discussion location can be found in a certain area
+    - Kaia governance discussion can be accessed from a particular location
+    - Kaia governance forum can be accessed in a certain area
+    - The location of the Kaia governance forum can be found
+    - In which area is the Kaia governance forum located?
+    - Where can I locate the Kaia governance forum?
+    - The Kaia governance forum is accessible from a certain location
+    - Kaia governance forum is situated in a certain area
+    - Kaia governance forum can be found in a particular area
+    - Where can I find the location of the Kaia governance forum?
+    - The Kaia governance forum is located in a certain area
+    - In which area can I find the Kaia governance forum?
+    - Kaia governance forum can be found in a certain location
+    - The Kaia governance forum can be accessed
+    - Kaia governance forum is situated in a particular location
+    - Where can I find Kaia governance forum in a certain area?
+    - The location of the Kaia governance forum can be accessed
+    - Kaia governance forum can be accessed in a particular area
+    - Can I find the location of the Kaia governance forum?
+    - The Kaia governance forum location can be found in a certain area
+    - Kaia governance forum is located in a specific area
+    - Where is the Kaia governance forum located?
+    - Kaia governance forum can be found at a certain location
+    - Kaia governance forum can be accessed at a certain location
+    - In which location is the Kaia governance forum situated?
+    - Where can I access the Kaia governance forum in a certain area?
+    - The Kaia governance forum location can be found in a certain area
+    - Kaia governance forum is accessible in a certain area
+    - The Kaia governance forum can be found
+    - Kaia governance forum is located at a certain location
+    - Kaia governance forum is located in a certain location
+    - Where is the location of the Kaia governance forum?
+    - The Kaia governance forum can be found in a certain area
+    - The Kaia governance forum is situated at a certain location
+    - In which location can I find the Kaia governance forum?
+    - Kaia governance agenda can be found in a certain area
+    - The location of the Kaia governance agenda can be found
+    - In which area is the Kaia governance agenda located?
+    - Where can I locate the Kaia governance agenda?
+    - The Kaia governance agenda is accessible from a certain location
+    - Kaia governance agenda is situated in a certain area
+    - Kaia governance agenda can be found in a particular area
+    - Where can I find the location of the Kaia governance agenda?
+    - The Kaia governance agenda is located in a certain area
+    - In which area can I find the Kaia governance agenda?
+    - Kaia governance agenda can be found in a certain location
+    - The Kaia governance agenda can be accessed
+    - Kaia governance agenda is situated in a particular location
+    - Where can I find Kaia governance agenda in a certain area?
+    - The location of the Kaia governance agenda can be accessed
+    - Kaia governance agenda can be accessed in a particular area
+    - Can I find the location of the Kaia governance agenda?
+    - The Kaia governance agenda location can be found in a certain area
+    - Kaia governance agenda is located in a specific area
+    - Where is the Kaia governance agenda located?
+    - Kaia governance agenda can be found at a certain location
+    - Kaia governance agenda can be accessed at a certain location
+    - In which location is the Kaia governance agenda situated?
+    - Where can I access the Kaia governance agenda in a certain area?
+    - The Kaia governance agenda location can be found in a certain area
+    - Kaia governance agenda is accessible in a certain area
+    - The Kaia governance agenda can be found
+    - Kaia governance agenda is located at a certain location
+    - Kaia governance agenda is located in a certain location
+    - Where is the location of the Kaia governance agenda?
+    - The Kaia governance agenda can be found in a certain area
+    - The Kaia governance agenda is situated at a certain location
+    - In which location can I find the Kaia governance agenda?
+
+- intent: directory_guide_devforum
+  examples: |
+    - I am in need of some technical assistance
+    - Where can I seek help for my technical issue?
+    - I'm in search of an expert to help me resolve my tech issue
+    - If you have some technical issues, I am happy to provide guidance
+    - Where can I find a place to get answers to my technical questions?
+    - I'm seeking technical support for my current issue
+    - I need a hand with my tech problem
+    - Where can I inquire about a technical query?
+    - Who can I turn to for technical assistance?
+    - I need some help with my technical problem
+    - Where can I find someone to help me with my technical issue?
+    - Where can I get assistance with my technical question?
+    - I am seeking advice on a technical matter
+    - I am seeking guidance on a technical issue
+    - Where can I seek technical guidance?
+    - I am looking for help with a technical problem
+    - Who can I ask for help with my technical issue?
+    - Where can I get some help with my technical question?
+    - If I have a technical issue, where can I get help?
+    - Where can I look for help with my tech problem?
+    - Where can I find a technical expert to help me?
+    - I am in need of help with my tech issue
+    - If you have a technical problem, where can you get help?
+    - Where can I get expert advice on a technical matter?
+    - Where can I look for technical assistance?
+    - I am looking for a place to get help with my technical issue
+    - Where can I turn to for technical help?
+    - I need some technical assistance
+    - Where can I find a place to ask my technical question?
+    - I am seeking technical support
+    - Where can I find someone to answer my technical question?
+    - I am in search of technical guidance
+    - If you have a technical issue, where can you seek help?
+    - I am seeking a technical solution
+    - Where can I get help with my technical problem?
+    - I need technical help
+    - Who can I ask to help me with my technical issue?
+    - If you need help with a technical issue, where can you go?
+    - Where can I get technical advice?
+    - I am seeking help with a tech issue
+    - Where can I get technical guidance?
+    - If you have technical issues, where can you seek help?
+    - I am seeking a technical expert to help me
+    - Where can I find technical support?
+    - I am in need of technical guidance
+    - If you are having technical problems, where can you get help?
+    - Who can I turn to for help with a tech issue?
+    - I am looking for a technical solution
+    - Where can I turn for technical help?
+    - Where can I find a technical advisor?
+    - I am seeking technical advice
+    - I need technical guidance
+    - If you have technical questions, where can you get answers?
+    - Where can I get technical assistance?
+    - I am seeking a technical expert
+    - If you need technical help, where can you find it?
+    - Where can I find technical guidance?
+    - I am in need of technical support
+    - Where can I find help with a tech issue?
+    - Who can I ask for technical assistance?
+    - If you are having technical problems, where can you find help?
+    - I am looking for technical help
+    - Where can I get technical help?
+    - Where can I find a technical advisor to help me?
+    - Where can I seek technical help?
+    - Who can I ask to help me with technical issues?
+    - Where can I find someone to help me with a tech problem?
+    - If you have a tech issue, where can you find help?
+    - I am seeking technical assistance
+    - If you need technical advice, where can you find it?
+    - Where can I get a technical solution?
+    - I am in need of technical help
+    - Where can I turn for a tech solution?
+    - I am seeking a tech expert
+    - If you have technical issues, where can you get a solution?
+    - Where can I get help with a technical problem?
+    - Who can I turn to for technical guidance?
+    - Where can I find a tech expert to help me?
+    - If you need technical guidance, where can you find it?
+    - Where can I find technical help?
+    - I am looking for a tech solution
+    - Who can I ask for help with technical issues?
+    - If you have technical problems, where can you find help?
+    - Where can I get technical assistance with a tech issue?
+    - I am in need of a tech expert
+    - Where can I find a tech advisor?
+    - If you need technical help with a tech problem, where can you find it?
+    - I am seeking help with technical issues
+    - Where can I get help with technical problems?
+    - Who can I ask for technical help?
+    - If you have a tech problem, where can you find a solution?
+    - I am looking for help with technical issues
+    - Where can I find technical guidance with a tech problem?
+    - Where can I get tech help?
+    - If you need technical help, where can you turn?
+    - I am seeking technical help with a tech problem
+    - Who can I turn to for technical help with a tech issue?
+    - Where can I get a tech expert's help?
+    - Where can I find a tech solution to my problem?
+    - I am in need of technical help with a tech issue
+    - If you have technical problems, where can you find a solution?
+    - Where can I seek help with technical issues?
+    - I am seeking help with a tech issue
+    - Who can I ask for tech help?
+    - If you need technical help with a tech problem, where can you find it?
+    - I am in need of help with technical issues
+    - Where can I find a tech expert?
+    - Where can I get technical support with a tech issue?
+    - Who can I turn to for help with technical problems?
+    - If you have technical questions, where can you find answers?
+    - I am looking for a tech solution
+    - Where can I get help with technical problems?
+    - Where can I find help with technical issues?
+    - Who can I ask for technical assistance with a tech problem?
+    - Where can I get technical help with a tech issue?
+    - I am seeking a tech solution
+    - Where can I turn for help with technical issues?
+    - If you need technical help, where can you find a solution?
+    - Who can I turn to for technical guidance with a tech problem?
+    - Where can I find a tech expert with a technical solution?
+    - I am in need of help with technical problems
+    - If you have technical issues, where can you find help?
+    - Where can I seek technical help with a tech issue?
+    - I am looking for a tech expert
+    - Who can I ask for help with technical problems?
+    - If you need technical help with a technical issue, where can you find it?
+    - Where can I get technical support with a tech problem?
+    - I am seeking a tech expert
+    - Where can I turn for tech help?
+    - If you have technical problems, where can you find tech support?
+    - Where can I find a tech solution to my tech problem?
+    - Who can I turn to for help with technical issues?
+    - I am in need of technical support with a tech issue
+    - Where can I get help with a tech problem?
+    - If you need tech help, where can you turn?
+    - Who can I ask for help with a technical issue?
+    - Where can I turn to for a tech solution?
+    - Where can I find technical help with a tech issue?
+    - I am seeking help with technical issues
+    - If you have technical problems, where can you turn for help?
+    - Who can I turn to for tech help?
+    - I am in need of tech help
+    - Where can I find tech support?
+    - Where can I get technical guidance with a technical issue?
+    - If you need technical help with a tech problem, where can you turn?
+    - Who can I turn to for a tech solution?
+    - Where can I seek tech help?
+    - Where can I find a tech expert to help me with technical issues?
+    - If you have technical questions, where can you get answers?
+    - Where can I turn for a tech expert?
+    - I am seeking tech help
+    - Who can I ask to help me with technical problems?
+    - If you have a tech issue, where can you find a tech solution?
+    - Where can I find tech help?
+    - I am looking for a tech expert with technical guidance
+    - Who can I turn to for technical help with a tech problem?
+    - Where can I get help with a tech solution?
+    - Where can I turn to for technical advice with a technical issue?
+    - If you need a tech expert, where can you find one?
+    - I am in need of a tech solution
+    - If you have technical issues, where can you find a tech expert?
+    - Who can I turn to for help with technical problems?
+    - Where can I get technical help with a tech issue?
+    - Where can I find a tech expert to help me with technical problems?
+    - I am looking for a tech solution to my technical problem
+    - Where can I turn for technical help?
+    - Who can I ask for help with technical issues?
+    - If you need a tech expert, where can
+
+- intent: directory_guide_explorer
+  examples: |
+    - I need to get on-chain data
+    - I need to get data from blockchain
+    - I need access to blockchain data
+    - I need to retrieve blockchain data
+    - I need to access on-chain information
+    - I need blockchain data
+    - I want to retrieve on-chain data
+    - I need to get blockchain data
+    - I am looking for blockchain data
+    - I want to access on-chain data
+    - I need to get on-chain data
+    - I need to get data from blockchain
+    - I need access to blockchain data
+    - I need to retrieve blockchain data
+    - I need to access on-chain information
+    - I need blockchain data
+    - I want to retrieve on-chain data
+    - I need to get blockchain data
+    - I am looking for blockchain data
+    - I want to access on-chain data
+    - I need to find blockchain data
+    - I want to obtain on-chain data
+    - I need to view on-chain data
+    - I want to retrieve data from blockchain
+    - I need on-chain data
+    - I need to view blockchain data
+    - I have a transaction hash or block hash and I need to look it up
+    - I have a transaction hash or block hash and I need to find it
+    - I need to search a transaction hash or block hash
+    - I have a hash and I need to find it
+    - I need to find a transaction hash or block hash
+    - I need to look up a transaction hash or block hash
+    - I need to search for a transaction hash or block hash
+    - I have a transaction hash or block hash and I need to locate it
+    - I need to find hash
+    - I need to look up hash
+    - I need to find a block hash or a transaction hash
+    - I have a transaction or block hash and I need to search it
+    - I need to search a block or transaction hash
+    - I have a block or transaction hash and I need to look it up
+    - I need to find a transaction and block hash
+    - I need to look up a transaction and block hash
+    - I need information about blocks
+    - I need to get block information
+    - I need to retrieve block data
+    - I need block data
+    - I need to find block information
+    - I need block details
+    - I need to get information about blocks
+    - I need to retrieve block info
+    - I need block info
+    - I am looking for block information
+    - I want to know block details
+    - I need block info
+    - I need to access block data
+    - I need to find details about blocks
+    - I need block details
+    - I need block data and information
+    - I need information about block
+    - I need to get block data and info
+    - I need block data and information
+    - I need to access information about block
+    - I need information about a block
+    - I need information about blocks
+    - I need details about blocks
+    - I need block info and data
+    - I need block info and details
+    - I need block details and information
+    - I need block data and details
+    - I need to get on-chain data
+    - I need to get data from blockchain
+    - I need access to blockchain data
+    - I need to retrieve blockchain data
+    - I need to access on-chain information
+    - I need blockchain data
+    - I want to retrieve on-chain data
+    - I need to get blockchain data
+    - I am looking for blockchain data
+    - I want to access on-chain data
+    - I need to find blockchain data
+    - I want to obtain on-chain data
+    - I need to view on-chain data
+    - I want to retrieve data from blockchain
+    - I need on-chain data
+    - I need to view blockchain data
+    - I need to get block data
+    - I need to get block information
+    - I need access to block data
+    - I need to retrieve block data
+    - I need to access on-chain data
+    - I need to access on-chain information
+    - I need to retrieve on-chain data
+    - I need to get on-chain data
+    - I need to access blockchain data
+    - I need to retrieve blockchain data
+    - I need access to block information
+    - I need to access block data
+    - I need to retrieve block data
+    - I have a transaction hash or block hash I need to search it
+    - I have a transaction hash or block hash and I need to look it up
+    - I have a transaction hash or block hash and I need to find it
+    - I need to search a transaction hash or block hash
+    - I have a hash and I need to find it
+    - I need to find a transaction hash or block hash
+    - I need to look up a transaction hash or block hash
+    - I need to search for a transaction hash or block hash
+    - I have a transaction hash or block hash and I need to locate it
+    - I need to find hash
+    - I need to look up hash
+    - I need to find a block hash or a transaction hash
+    - I have a block or transaction hash and I need to search it
+    - I need to search a block or transaction hash
+    - I have a block or transaction hash and I need to look it up
+    - I need to find a transaction and block hash
+    - I need to look up a transaction and block hash
+    - I need to search for transaction hash and block hash
+    - I need to look up a block or transaction hash
+    - I need to search for hash
+    - I need block information
+    - I need information about blocks
+    - I need to get block information
+    - I need to retrieve block data
+    - I need block data
+    - I need to find block information
+    - I need block details
+    - I need to get information about blocks
+    - I need to retrieve block info
+    - I need block info
+    - I am looking for block information
+    - I want to know block details
+    - I need block info
+    - I need to access block data
+    - I need to find details about blocks
+    - I need block details
+    - I need block data and information
+    - I need information about block
+    - I need to get block data and info
+    - I need block data and information
+    - I need to access information about block
+    - I need information about a block
+    - I need information about blocks
+    - I need details about blocks
+    - I need block info and data
+    - I need block info and details
+    - I need block details and information
+    - I need block data and details
+    - I need to get block data
+    - I need to retrieve block data
+    - I need to retrieve information about block
+    - I need to access block information
+    - I need to get block details
+    - I need to find block information
+    - I need to find details about block
+    - I need to find details about block
+    - I need to retrieve block details
+    - I need to access block details
+    - I need to access information about blocks
+    - I need to access block data and information
+    - I need to access block details and information
+    - I need to access block information and data
+    - I need to get on-chain data
+    - I need to get data from blockchain
+    - I need access to blockchain data
+    - I need to retrieve blockchain data
+    - I need to access on-chain information
+    - I need blockchain data
+    - I want to retrieve on-chain data
+    - I need to get blockchain data
+    - I am looking for blockchain data
+    - I want to access on-chain data
+    - I need to find blockchain data
+    - I want to obtain on-chain data
+    - I need to view on-chain data
+    - I want to retrieve data from blockchain
+    - I need on-chain data
+    - I need to view blockchain data
+    - I need to get block data
+    - I need to get block information
+    - I need access to block data
+    - I need to retrieve block data
+    - I need to access on-chain data
+    - I need to access on-chain information
+    - I need to retrieve on-chain data
+    - I need to get on-chain data
+    - I need to access blockchain data
+    - I need to retrieve blockchain data
+    - I need access to block information
+    - I need to access block data
+    - I need to retrieve block data
+    - I have a transaction hash or block hash I need to search it
+    - I have a transaction hash or block hash and I need to look it up
+    - I have a transaction hash or block hash and I need to find it
+    - I need to search a transaction hash or block hash
+    - I have a hash and I need to find it
+    - I need to find a transaction hash or block hash
+    - I need to look up a transaction hash or block hash
+    - I need to search for a transaction hash or block hash
+    - I have a transaction hash or block hash and I need to locate it
+    - I need to find hash
+    - I need to look up hash
+
+
+- intent: directory_guide_medium
+  examples: |
+    - Can I find Kaia's news somewhere?
+    - I am looking for a place to see Kaia's news
+    - Kaia's news is where I can see it
+    - Can I find Kaia's news somewhere on the web?
+    - Where can I see information about Kaia's ongoing project?
+    - I am interested in learning more about Kaia's ongoing project
+    - Kaia's ongoing project is where I can get the latest updates
+    - Kaia's new release notes is where I can see it
+    - Where can I find Kaia's new release notes?
+    - I need to find Kaia's new release notes online
+    - I am trying to find where Kaia has released new notes
+    - I am trying to find where I can see Kaia's new release notes
+    - Can I find Kaia's new release notes anywhere?
+    - Can I get to see Kaia's new release notes somewhere?
+    - Where can I see Kaia's news in one place?
+    - I am looking to see Kaia's news in one place
+    - Can I see Kaia's news all in one spot?
+    - Can I find Kaia's news all in one place?
+    - I am searching for Kaia's news and it must be in one spot
+    - Can I find Kaia's news somewhere?
+    - I am looking for a place to see Kaia's news
+    - Kaia's news is where I can see it
+    - Can I find Kaia's news somewhere on the web?
+    - Where can I see information about Kaia's ongoing project?
+    - I am interested in learning more about Kaia's ongoing project
+    - Kaia's ongoing project is where I can get the latest updates
+    - Kaia's new release notes is where I can see it
+    - Where can I find Kaia's new release notes?
+    - I need to find Kaia's new release notes online
+    - I am trying to find where Kaia has released new notes
+    - I am trying to find where I can see Kaia's new release notes
+    - Can I find Kaia's new release notes anywhere?
+    - Can I get to see Kaia's new release notes somewhere?
+    - Where can I see Kaia's news in one place?
+    - I am looking to see Kaia's news in one place
+    - Can I see Kaia's news all in one spot?
+    - Can I find Kaia's news all in one place?
+    - I am searching for Kaia's news and it must be in one spot
+    - Can I find Kaia's ongoing project somewhere?
+    - I am looking for a place to see Kaia's ongoing project
+    - Kaia's ongoing project is where I can see it
+    - Where can I find information about Kaia's ongoing project?
+    - Can I get to see Kaia's ongoing project somewhere?
+    - I need to find Kaia's ongoing project online
+    - I am trying to find where Kaia's ongoing project is
+    - I am trying to find where I can see Kaia's ongoing project
+    - Can I find Kaia's ongoing project on the web?
+    - Where can I get to see Kaia's ongoing project?
+    - Can I get to see Kaia's ongoing project anywhere?
+    - Where can I see Kaia's ongoing project in one place?
+    - Can I find Kaia's ongoing project in one spot?
+    - I am searching for Kaia's ongoing project and it must be in one place
+    - Can I find Kaia's new release note somewhere?
+    - I am looking for a place to see Kaia's new release note
+    - Kaia's new release note is where I can see it
+    - Where can I find information about Kaia's new release note?
+    - Can I get to see Kaia's new release note somewhere?
+    - I need to find Kaia's new release note online
+    - I am trying to find where Kaia has released a new note
+    - I am trying to find where I can see Kaia's new release note
+    - Can I find Kaia's new release note anywhere?
+    - Can I get to see Kaia's new release note somewhere?
+    - Where can I see Kaia's new release note in one place?
+    - Can I find Kaia's new release note all in one spot?
+    - I am searching for Kaia's new release note and it must be in one spot
+    - Can I find Kaia's new release note in one place?
+    - I am looking to see Kaia's new release note in one place
+    - Where can I see Kaia news?
+    - Where can I see Kaia ongoing project?
+    - Where can I see Kaia new relesae note?
+    - Where can I see Kaia information?
+    - Where can I see Kaia recent update?
+    - Where can I see Kaia latest news?
+    - Where can I see Kaia ongoing status?
+    - Where can I see Kaia current progress?
+    - Where can I see Kaia new release?
+    - Where can I see Kaia updated information?
+    - Can I find Kaia's news somewhere?
+    - I am looking for a place to see Kaia's news
+    - Kaia's news is where I can see it
+    - Can I find Kaia's news somewhere on the web?
+    - Where can I see information about Kaia's ongoing project?
+    - I am interested in learning more about Kaia's ongoing project
+    - Kaia's ongoing project is where I can get the latest updates
+    - Kaia's new release notes is where I can see it
+    - Where can I find Kaia's new release notes?
+    - I need to find Kaia's new release notes online
+    - I am trying to find where Kaia has released new notes
+    - I am trying to find where I can see Kaia's new release notes
+    - Can I find Kaia's new release notes anywhere?
+    - Can I get to see Kaia's new release notes somewhere?
+    - Where can I see Kaia's news in one place?
+    - I am looking to see Kaia's news in one place
+    - Can I see Kaia's news all in one spot?
+    - Can I find Kaia's news all in one place?
+    - I am searching for Kaia's news and it must be in one spot
+    - Where can I see Kaia ongoing project?
+    - Can I find Kaia's ongoing project somewhere?
+    - I am looking for a place to see Kaia's ongoing project
+    - Kaia's ongoing project is where I can see it
+    - Where can I find information about Kaia's ongoing project?
+    - Can I get to see Kaia's ongoing project somewhere?
+    - I need to find Kaia's ongoing project online
+    - I am trying to find where Kaia's ongoing project is
+    - I am trying to find where I can see Kaia's ongoing project
+    - Can I find Kaia's ongoing project on the web?
+    - Where can I get to see Kaia's ongoing project?
+    - Can I get to see Kaia's ongoing project anywhere?
+    - Where can I see Kaia's ongoing project in one place?
+    - Can I find Kaia's ongoing project in one spot?
+    - I am searching for Kaia's ongoing project and it must be in one place
+    - Where can I see Kaia new relesae note?
+    - Can I find Kaia's new release note somewhere?
+    - I am looking for a place to see Kaia's new release note
+    - Kaia's new release note is where I can see it
+    - Where can I find information about Kaia's new release note?
+    - Can I get to see Kaia's new release note somewhere?
+    - I need to find Kaia's new release note online
+    - I am trying to find where Kaia has released a new note
+    - I am trying to find where I can see Kaia's new release note
+    - Can I find Kaia's new release note anywhere?
+    - Can I get to see Kaia's new release note somewhere?
+    - Where can I see Kaia's new release note in one place?
+    - Can I find Kaia's new release note all in one spot?
+    - I am searching for Kaia's new release note and it must be in one spot
+    - Can I find Kaia's new release note in one place?
+    - I am looking to see Kaia's new release note in one place
+
+- intent: directory_guide_docs
+  examples: |
+    - I need to figure out how to call the methods of Kaia or Ethereum API
+    - How can I access the methods of Kaia or Ethereum API
+    - I am trying to get the hang of using Kaia or Ethereum API methods
+    - To learn how to use the API of Kaia or Ethereum
+    - I'm trying to figure out how to use the API methods of Kaia or Ethereum
+    - I'm trying to find out how to call the Kaia or Ethereum API methods
+    - How can I get the hang of using the methods of Kaia or Ethereum API?
+    - I am trying to access the API methods of Kaia or Ethereum
+    - To find out how to use Kaia or Ethereum API methods
+    - I need to find out how to use the API methods of Kaia or Ethereum
+    - I am attempting to learn how to call the methods of Kaia or Ethereum API
+    - What is the best way to get started with using the API methods of Kaia or Ethereum
+    - I need to learn the ropes of using the API methods of Kaia or Ethereum
+    - I am trying to understand how to use the methods of Kaia or Ethereum API
+    - I'm trying to figure out how to get started with using the Kaia or Ethereum API methods
+    - To learn the ways of using the API methods of Kaia or Ethereum
+    - I'm trying to get the hang of accessing the methods of Kaia or Ethereum API
+    - How do I get started with using the API methods of Kaia or Ethereum
+    - To get the hang of using the methods of Kaia or Ethereum API
+    - I need to figure out how to get started with using the Kaia or Ethereum API methods
+    - To learn how to access the methods of Kaia or Ethereum API
+    - How can I get started with using the methods of Kaia or Ethereum API?
+    - What is the best way to learn how to use the API methods of Kaia or Ethereum?
+    - To understand how to use the methods of Kaia or Ethereum API
+    - How to find out how to use the API methods of Kaia or Ethereum
+    - To figure out how to access the methods of Kaia or Ethereum API
+    - I am trying to learn how to use the API methods of Kaia or Ethereum
+    - What is the best way to learn the ways of using the API methods of Kaia or Ethereum?
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - I'm trying to understand how to access the methods of Kaia or Ethereum API
+    - I am attempting to figure out how to use the methods of Kaia or Ethereum API
+    - To find out how to learn the methods of Kaia or Ethereum API
+    - I need to get the hang of using the API methods of Kaia or Ethereum
+    - I'm trying to find out how to learn the API methods of Kaia or Ethereum
+    - How can I learn the ways of using the methods of Kaia or Ethereum API
+    - I'm trying to learn how to access the API methods of Kaia or Ethereum
+    - I need to understand how to get started with using the methods of Kaia or Ethereum API
+    - To figure out how to learn the API methods of Kaia or Ethereum
+    - What is the best way to get the hang of using the API methods of Kaia or Ethereum?
+    - To get started with learning the ways of using the API methods of Kaia or Ethereum
+    - I need to learn how to access the methods of Kaia or Ethereum API
+    - I am attempting to get the hang of using the methods of Kaia or Ethereum API
+    - I'm trying to find out how to use the methods of Kaia or Ethereum API
+    - To understand how to access the API methods of Kaia or Ethereum
+    - I am trying to figure out how to get started with using the methods of Kaia or Ethereum API
+    - To learn the ropes of using the API methods of Kaia or Ethereum
+    - What is the best way to learn how to access the API methods of Kaia or Ethereum?
+    - I need to get the hang of using the API methods of Kaia or Ethereum
+    - I'm trying to understand the ways of using the API methods of Kaia or Ethereum
+    - I am attempting to learn how to access the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - To get the hang of using the methods of Kaia or Ethereum API
+    - I need to find out how to get started with using the methods of Kaia or Ethereum API
+    - To get the hang of learning the API methods of Kaia or Ethereum
+    - I am trying to figure out how to use the methods of Kaia or Ethereum API
+    - I am trying to learn the ropes of using the API methods of Kaia or Ethereum
+    - To figure out how to get started with using the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - What is the best way to get the hang of using the API methods of Kaia or Ethereum?
+    - To get started with accessing the API methods of Kaia or Ethereum
+    - To get started with using the API methods of Kaia or Ethereum
+    - To find out how to get started with using the API methods of Kaia or Ethereum
+    - I am trying to get the hang of using the API methods of Kaia or Ethereum
+    - I am attempting to figure out how to access the methods of Kaia or Ethereum API
+    - I need to get the hang of accessing the API methods of Kaia or Ethereum
+    - To figure out how to get started with using the API methods of Kaia or Ethereum
+    - To learn the ways of using the API methods of Kaia or Ethereum
+    - I need to get the hang of learning the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - I am attempting to understand how to access the API methods of Kaia or Ethereum
+    - I need to get the hang of accessing the API methods of Kaia or Ethereum
+    - To get the hang of accessing the API methods of Kaia or Ethereum
+    - What is the best way to learn how to access the API methods of Kaia or Ethereum?
+    - To get the hang of learning the API methods of Kaia or Ethereum
+    - I am trying to get the hang of using the API methods of Kaia or Ethereum
+    - To understand how to use the API methods of Kaia or Ethereum
+    - To get started with learning the API methods of Kaia or Ethereum
+    - I am trying to figure out how to access the methods of Kaia or Ethereum API
+    - I'm trying to figure out how to use the API methods of Kaia or Ethereum
+    - I need to figure out how to use the API methods of Kaia or Ethereum
+    - I am trying to learn how to use the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - I'm trying to get the hang of using the API methods of Kaia or Ethereum
+    - I'm trying to get the hang of accessing the API methods of Kaia or Ethereum
+    - To learn the ropes of using the API methods of Kaia or Ethereum
+    - To get started with using the API methods of Kaia or Ethereum
+    - To find out how to access the methods of Kaia or Ethereum API
+    - To figure out how to get started with accessing the API methods of Kaia or Ethereum
+    - I am trying to find out how to access the API methods of Kaia or Ethereum
+    - I am trying to learn how to access the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - To get started with accessing the API methods of Kaia or Ethereum
+    - To figure out how to use the API methods of Kaia or Ethereum
+    - I am attempting to get the hang of using the API methods of Kaia or Ethereum
+    - To get the hang of using the API methods of Kaia or Ethereum
+    - I need to learn how to use the API methods of Kaia or Ethereum
+    - To get the hang of using the methods of Kaia or Ethereum API
+    - To get the hang of accessing the API methods of Kaia or Ethereum
+    - I'm trying to get the hang of learning the API methods of Kaia or Ethereum
+    - I need to get the hang of learning the API methods of Kaia or Ethereum
+    - I am trying to get the hang of learning the API methods of Kaia or Ethereum
+    - To find out how to use the API methods of Kaia or Ethereum
+    - To get the hang of learning the API methods of Kaia or Ethereum
+    - To figure out how to use the API methods of Kaia or Ethereum
+    - To get started with using the API methods of Kaia or Ethereum
+    - I am attempting to get the hang of learning the API methods of Kaia or Ethereum
+    - To get the hang of accessing the methods of Kaia or Ethereum

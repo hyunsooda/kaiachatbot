@@ -1,0 +1,123 @@
+version: "3.1"
+
+stories:
+
+- story: directly ask portal
+  steps:
+  - intent: directory_guide_portal
+  - action: utter_directory_guide_portal
+
+- story: directly ask square
+  steps:
+  - intent: directory_guide_square
+  - action: utter_directory_guide_square
+
+- story: directly ask github
+  steps:
+  - intent: directory_guide_github
+  - action: utter_directory_guide_github
+
+- story: directly ask kip
+  steps:
+  - intent: directory_guide_kip
+  - action: utter_directory_guide_kip
+
+- story: directly ask kaia
+  steps:
+  - intent: directory_guide_kaia
+  - action: utter_directory_guide_kaia
+
+- story: directly ask governance
+  steps:
+  - intent: directory_guide_governance
+  - action: utter_directory_guide_governance
+
+- story: directly ask devforum
+  steps:
+  - intent: directory_guide_devforum
+  - action: utter_directory_guide_devforum
+
+- story: directly ask explorer
+  steps:
+  - intent: directory_guide_explorer
+  - action: utter_directory_guide_explorer
+
+- story: directly ask medium
+  steps:
+  - intent: directory_guide_medium
+  - action: utter_directory_guide_medium
+
+- story: directly ask docs
+  steps:
+  - intent: directory_guide_docs
+  - action: utter_directory_guide_docs
+
+- story: help and ask portal
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_portal
+  - action: utter_directory_guide_portal
+
+- story: help and ask square
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_square
+  - action: utter_directory_guide_square
+
+- story: help and ask github
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_github
+  - action: utter_directory_guide_github
+
+- story: help and ask kip
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_kip
+  - action: utter_directory_guide_kip
+
+- story: help and ask kaia
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_kaia
+  - action: utter_directory_guide_kaia
+
+- story: help and ask governance
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_governance
+  - action: utter_directory_guide_governance
+
+- story: help and ask devforum
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_devforum
+  - action: utter_directory_guide_devforum
+
+- story: help and ask explorer
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_explorer
+  - action: utter_directory_guide_explorer
+
+- story: help and ask medium
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_medium
+  - action: utter_directory_guide_medium
+
+- story: help and ask docs
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: directory_guide_docs
+  - action: utter_directory_guide_docs
