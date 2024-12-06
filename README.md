@@ -28,3 +28,6 @@ http://localhost:5005/webhooks/rest/webhook \
   "message": "where can I access ongoing governance agenda of voting"
 }'
 ```
+## Dataset generation
+Predefined dataset has been generated using Llama model. First, you should download the model from [huggingface](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct)
+Once download it and place the model into `generator`. Run `python model.py`
